@@ -1,3 +1,4 @@
+#!/bin/bash
 sed 's/~/,/g' Exercise_part_2.csv >> Assignment2.csv
 cut -d ',' -f6  Assignment2.csv |sort -r| head -n 11 > Assignment_2.csv
 
